@@ -5,17 +5,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(10px);
+  /* background: white; */
+  /* backdrop-filter: blur(10px); */
   border-radius: 50px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   position: absolute;
 }
 
 .logo {
   font-size: 20px;
   font-weight: 600;
-  color: #2e7d32; /* Green shade */
+  color: #f8f6f6; /* Green shade */
 }
 
 .nav-menu {
@@ -25,18 +25,18 @@
 }
 
 .nav-menu li a {
+  font-size: 18px;
+  color: #f8f6f6; /* Green shade */
+  font-weight: 200;
   text-decoration: none;
-  color: #111;
-  font-size: 16px;
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.nav-menu li a:hover {
-  color: #2e7d32;
-}
-
-.nav-menu li:hover {
-  transform: scale(1.05);
+#wallet {
+  background-color: rgb(42, 43, 44);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
 }
 
 /* Optional: Responsive tweak */

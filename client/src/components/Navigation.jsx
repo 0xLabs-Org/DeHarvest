@@ -20,7 +20,9 @@ function Navigation() {
           <a href="#marketplace">Marketplace</a>
         </li> */}
         <li>
-          <a href="#wallet">connect</a>
+          <a href="#wallet" id="wallet">
+            Wallet
+          </a>
         </li>
       </ul>
     </nav>
